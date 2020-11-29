@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="input data tabel.css">
+        <title> Tugas Input Data Tabel </title>
+        <script src="input data tabel.js"></script>
+    <body>
+        <div class="board">
+                <form  name="datadiri" method="POST" action="input data tabel.html">
+                    <h1 class="daftar"> DAFTAR</h1>
+                    <pre class="form">
+Nama Lengkap    : <input type="text" name="nama">
+Email               : <input type="text" name="email">
+Tanggal Lahir   : <input type="date" name="ttl">
+Jenis Kelamin   : <select name="gender">
+    <option>Laki-Laki</option>
+    <option>Perempuan</option>
+    <option>tidak ingin menyebutkan</option>
+</select>
+Username        : <input type="text" name="username">
+Password        : <input type="password" name="pw">
+                    </pre>
+                    <br>
+                        <input type="button" onclick="terimainput()" value="Simpan">
+                        <input type="reset" value="Ulangi">
+        </form>
+        </div>
+        <fieldset ></fieldset>
+            <table border="1" class="tabel"  id="tabelinput">
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>Email</td>
+                    <td>Tanggal Lahir</td>
+                    <td>Jenis Kelamin</td>
+                    <td>Username</td>
+                    <td>Password</td>
+                </tr>
+            </table>
+    </body>
+    </head>
+</html>
